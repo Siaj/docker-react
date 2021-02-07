@@ -7,14 +7,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p><h1>Hello from React.js</h1></p>
-        <h2>My name is Sibdow Iddrisu</h2>
+        <h2>My name is Sibdow Iddrisu..Container Id: ${process.env.HOSTNAME}</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          learn react
         </a>
       </header>
     </div>
