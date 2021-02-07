@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p><h1>Hello from React.js</h1></p>
-        <h2>My name is Sibdow Iddrisu..Container Id: ${process.env.HOSTNAME}</h2>
+        <p><h1>Hello from React.js and Sibdow</h1></p>
+        <h2>My name is Sibdow Iddrisu..Container Id: {process.env.HOSTNAME}</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
